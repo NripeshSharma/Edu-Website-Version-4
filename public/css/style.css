@@ -1,0 +1,190 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@386&family=Lato&family=Source+Serif+Pro:wght@600&family=Zilla+Slab+Highlight:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
+:root {
+  --light-blue-color: #13A699;
+  --yellow-color: #FFD708;
+  --blue-lghter-shade: #7c918e;
+  --greenish: #13A699;
+}
+
+.btn {
+  background: #FFD708;
+  border-radius: 50px;
+}
+
+#text_donate {
+  font-family: Jost;
+  color: black;
+}
+
+nav {
+  background-color: #13A699;
+}
+
+.navbar-nav {
+  padding-right: 7%;
+}
+
+.nav-link {
+  margin-left: 30px;
+  font-family: 'Jost', sans-serif;
+  font-size: 125%;
+}
+
+.dropdown-menu {
+  background-color: #13A699;
+  border: 0;
+}
+
+.dropdown-item {
+  color: white;
+  /* margin-right: 100%; */
+}
+
+.content {
+  width: 100%;
+  height: 2000px;
+}
+
+#banner {
+  background-color: #13A699;
+  border: 0px;
+  /* height: 200px; */
+  color: white;
+}
+
+#banner_image {
+  height: 50%;
+  width: 40%;
+  padding-top: 2%;
+}
+
+#banner_text {
+  padding-left: 10%;
+  padding-top: 7%;
+  font-family: 'Zilla Slab', serif;
+  font-size: 300%;
+  word-spacing: 8%;
+}
+
+#banner_text_desc1 {
+  line-height: 100%;
+  padding-bottom: 2%;
+  letter-spacing: 4px;
+}
+
+#banner_text_desc2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 50%;
+  line-height: 130%;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1100px) {
+  #banner_text {
+    padding-left: 10%;
+  }
+  #banner_image {
+    height: 50%;
+    width: 50%;
+    padding-left: 25%;
+  }
+  #banner_text_desc1 {
+    font-size: 65%;
+    letter-spacing: 2px;
+  }
+}
+
+.banner-btn {
+  font-family: 'Jost', sans-serif;
+  padding: 2%;
+  font-size: 50%;
+  position: relative;
+  left: 10%;
+  top: 5%;
+}
+
+#Sign-in {
+  margin-left: 30px;
+}
+
+.Why-Us {
+  font-size: 380%;
+  font-family: 'Source Serif Pro', serif;
+  color: var(--blue-lghter-shade);
+}
+
+.icon_text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 170%;
+}
+
+.icon_text_desc {
+  font-family: 'Lato', sans-serif;
+  font-size: 120%;
+}
+
+#motivation-image {
+  margin-top: -8em;
+}
+
+.motiv__text {
+  font-family: 'Zilla Slab', serif;
+  font-size: 3em;
+  padding-left: 2em;
+  padding-top: 3em;
+  color: var(--light-blue-color);
+  line-height: 1.7em;
+  letter-spacing: 8px;
+}
+
+#About__Us {
+  margin-top: 1em;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 380%;
+  color: var(--blue-lghter-shade);
+}
+
+#About__Us__text {
+  /* “We aim at providing and equipting beginners as well as proffessional to upgrade their skills set by providing free content to make sure you do not providing free content to make sure you do not waste your valuable time in searching for meaningful content with simple explanations’’ */
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.8em;
+  letter-spacing: -0.005em;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#footer__part {
+  background-color: var(--greenish);
+  margin-top: 7rem;
+  margin-bottom: 0;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+#preloader {
+  background: #E9F1F2 url("1uoA.gif") no-repeat center center;
+  background-size: 9% 20%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.footer_heading {
+  font-family: 'Zilla Slab', serif;
+  font-size: 2em;
+  font-style: normal;
+}
+
+.footer__links {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+}
+/*# sourceMappingURL=main.css.map */
