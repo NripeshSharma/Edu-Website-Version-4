@@ -12,7 +12,7 @@ This is a educational website aimed at spreading free knowledge through online f
 
 ## Technologies
 Project is created with:
-* Figma
+* Figma : Design Link (https://bit.ly/3HFfrY2)
 * HTML5
 * CSS3
 * NodeJS: 14.18.1
