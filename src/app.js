@@ -25,7 +25,7 @@ hbs.registerPartials(partials_path);
 
 app.get("/", (req, res) => {
     //res.send("Hello from Nripesh Sharma  "); //Direct HTML
-    res.render("index");
+    res.send("index");
 });
 
 app.get("/register", (req, res) => {
